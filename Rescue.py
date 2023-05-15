@@ -17,6 +17,7 @@ df = pd.read_csv("Urban_Park_Ranger_Animal_Condition_Response.csv")
 # you need to include __name__ in your Dash constructor if
 # you plan to use a custom CSS or JavaScript in your Dash apps
 app = dash.Dash(__name__)
+server = app.server
 
 #---------------------------------------------------------------
 app.layout = html.Div([
